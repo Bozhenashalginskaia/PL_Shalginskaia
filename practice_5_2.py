@@ -1,5 +1,8 @@
 def words_ending_with_ya(sentence):
+    #Разделение предложения на слова
     words = sentence.split()
+    #Создание списка слов, заканчивающихся на "я":
+    #word for word in words - генератор списка
     result = [word for word in words if word.endswith('я')]
     return result
 
