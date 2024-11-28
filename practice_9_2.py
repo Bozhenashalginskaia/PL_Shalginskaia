@@ -1,6 +1,4 @@
 
-i = 2
-
 def recursion(n, i=2):
     if n < 2: 
         return "NO"
